@@ -1,0 +1,492 @@
+/* this file is download from Github,originally by xkjing0924 and the site "http://xux.cn/",please save this note */
+/*resert*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*main styling*/
+html,body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.7em;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin:10px 0;
+}
+*h1{
+    font-size: 300px;
+}
+
+/*utility classes*/
+.text-primary{
+    color: #000;
+}
+.text-primary .info-content h1{
+    line-height: 80px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 16px;
+    color:#ccc;
+    background: #222;
+    height: auto;
+    width: auto;
+    padding: 17px;
+    margin: 20px;
+}
+.btn:visited{
+    background: #444;
+    color: #fff;
+}
+.btn:hover{
+    background: #555;
+    color: #fff;
+}
+
+.para{
+    font-size: 35px;
+    text-align: center;
+    color: #000 ;
+    line-height: 50px;
+}
+/*navbar*/
+.svg{
+    float: right;
+    margin: 20px;
+}
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 18px 50px 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ccc;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: #fff;
+}
+
+.btn-close{
+    position: absolute;
+    top: 0;
+    left: 22px;
+    font-size: 36px;
+}
+
+#main{
+    transition: margin-left 0.5s;
+    padding: 20px;
+}
+.navbar{
+    width:100%;
+    background-color:#111;
+    color: #fff;
+    overflow: auto;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    bottom: 70px;
+    width: 100%;
+}
+.navbar a{
+    color: #888;
+}
+.navbar .logo{
+    float: left;
+    padding-top: 5px;
+    height: 65px;
+    width: 65px;
+}
+.navbar ul{
+    float: right;
+    padding-top: 3px;
+    list-style: none;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.navbar ul li a:hover,
+.navbar ul li a.current{
+    background:#444;
+    color: #fff;
+}
+#log{
+    text-align: left;
+}
+
+/*container*/
+.container-index{
+    margin:0 auto ;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.container-contact{
+    padding: 0 20px;
+    padding-top: 80px;
+    height: auto;
+}
+
+
+/*showcase*/
+
+/*index*/
+.showcase-index{
+  background:url('../img/fog.jpg') no-repeat center center/cover;
+    height: 1120px;
+    width:100%;
+    background-color:#fff;
+}
+.showcase-index :hover{
+    background: #ddd;
+    color: #111;
+}
+
+.showcase-index .showcase-content{
+    color: #000;
+    text-align: center;
+    padding: 50px 20px;
+    width:100%;
+    padding-bottom: 400px;
+    height: 1120px;
+}
+.showcase-index .showcase-content h1{
+    font-size: 60px;
+    line-height: 80px;
+    padding: 40px 10px;
+}
+.showcase-index .showcase-content p{
+    font-size: 40px;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+/*a*/
+.showcase-index .showcase-content a{
+    color: #fff;
+}
+.showcase-index .showcase-content a:link{
+    color: #ddd;
+}
+.showcase-index .showcase-content a:visited{
+    color: #bbb;
+}
+.showcase-index .showcase-content a:hover{
+    color: #fff;
+}
+
+/*about*/
+.showcase-about{
+    background:url('../img/camera.jpg') no-repeat center center/cover;
+    align-items: center;
+    size: 1000px;
+    height: 1380px;
+}
+
+
+.showcase-about .showcase-content{
+    color: #888;
+    text-align: center;
+    padding: 50px 20px;
+    padding-bottom: 180px;
+    height: 1380px;
+}
+.showcase-about .showcase-content h1{
+    font-size: 60px;
+    line-height: 80px;
+    padding: 40px 10px;
+}
+.showcase-about .showcase-content p{
+    font-size: 40px;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+
+.showcase-about :hover{
+    background: #999;
+    color: #222;
+}
+/*a*/
+.showcase-about .showcase-content a{
+    color: #fff;
+}
+.showcase-about .showcase-content a:link{
+    color: #ddd;
+}
+.showcase-about .showcase-content a:visited{
+    color: #bbb;
+}
+.showcase-about .showcase-content a:hover{
+    color: #fff;
+}
+/*contact*/
+.contact-info{
+    background: url('../img/wood.jpg') center center/cover;
+}
+.contact-info :hover{
+    background: #444;
+    color: #ddd;
+}
+.l-heading{
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 100px;
+}
+.contact-info .form-group{
+    margin-bottom: 20px;
+}
+.contact-info label{
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-info input,
+.contact-info textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+.contact-info textarea{
+    height: 200px;
+}
+.contact-info textarea:active{
+    border: #aaa;
+}
+
+
+/*home-info*/
+.home-info{
+    height: 800px;
+}
+.home-info-img{
+    float: left;
+    width: 50%;
+    background: url('../img/ice.jpg') no-repeat center center/cover;
+    height: 800px;
+}
+
+.home-info-content{
+    float: right;
+    height: 800px;
+    width: 50%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: auto;
+    color: #fff;
+    background-color: #444;
+    font-size: 30px;
+    line-height: 20px;
+}
+.home-info .info-content h2{
+    line-height: 60px;
+    max-height: 627px;
+    overflow: auto;
+}
+.home-info-para{
+    font-size: 25px;
+    line-height: 40px;
+    padding: auto;
+    word-wrap: break-word;
+    word-break: normal;
+    padding-top: 0px;
+}
+.home-info :hover{
+    background: #aaa;
+    color: #000;
+}
+.home-info-text{
+    line-height: 50px;
+    padding-bottom: 0px;
+    height: 80px;
+    font-size: auto;
+}
+/*features*/
+.box-index{
+    display: inline;
+    float: left;
+    width:33.3%;
+    height: 400px;
+    text-align: center;
+    padding: 50px 10px;
+    font-size: 30px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.bright{
+    background-color:#ddd;
+    color: #222;
+}
+.bright:hover{
+    background-color:#444;
+    color: #eee;
+}
+.dark{
+    background-color: #222;
+    color: #ddd;
+}
+.dark:hover{
+    background-color: #999;
+    color: #222;
+}
+.box-index h3{
+    padding: 10px;
+}
+.features a{
+    font-size: 20px;
+}
+
+.test{
+    margin-bottom: 40px;
+}
+
+
+/*features*/
+.bright{
+    background-color: #fff;
+}
+.bright:hover{
+    background-color: #ddd;
+    color: #222;
+}
+.box-contact{
+    display: inline;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    text-align: center;
+    padding: 50px 10px;
+    font-size: 30px;
+    line-height: 40px;
+    overflow:visible;
+}
+.lanjie{
+    font-size: 40px;
+}
+.under-heading{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.echo-content{
+    background: #ccc;
+    font-size: 25px;
+}  
+
+
+/*showcasesec*/
+.about-feature{
+    background:url('../img/sand.jpg') no-repeat center center/cover;
+    text-align: center;
+    size: 1000px;
+}
+
+
+.about-feature .feature-content{
+    color: #888;
+    text-align: center;
+    padding: 50px 20px;
+    padding-bottom: 180px;
+    height: 800px;
+}
+
+.feature-content p{
+    font-size: 40px;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+
+.about-feature :hover{
+    background: #999;
+    color: #222;
+}
+
+.ask{
+    padding-bottom: 200px;
+}    
+
+/*footer*/
+.main-footer{
+    background-color: #222;
+    width:100%;
+    display: block;
+    height: 70px;
+    float: left;
+}
+.main-footer p{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #eee;
+    height: 50px;
+    margin: 0px;
+}
+.main-footer a{
+    color:#eee;
+}
+.main-footer a:hover{
+    text-decoration: underline;
+}
+.content{
+    padding-top: 22px;
+    margin: 0px;
+}
+/* edition */
+.edition-body{
+    background: #bbb;
+}
+/* wei */
+.hhh-body{
+    background: #333;
+}
+.wei-container-content h1,
+.wei-container-content .para{
+    color: #ccc;
+}
+.strong{
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 60px;
+    color: #eee;
+    text-align: center;
+}
+.wei-container-content h1,
+.ask .l-heading{
+    padding-top: 90px;
+}
+.href{
+    text-align: center;
+}
+.wei-img{
+    position:relative;
+    height: 200px;
+    left: 35%;
+    margin-top: 10%;
+}

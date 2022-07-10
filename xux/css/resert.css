@@ -1,0 +1,183 @@
+/*resert*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*main styling*/
+html,body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.7em;
+}
+html{
+    background: #eee;
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin:10px 0;
+}
+*h1{
+    font-size: 300px;
+}
+
+/*utility classes*/
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color:#ccc;
+    background: #222;
+    height: auto;
+    width: auto;
+    padding: 17px;
+    margin: 20px;
+}
+.btn:visited{
+    background: #444;
+    color: #fff;
+}
+.btn:hover{
+    background: #555;
+    color: #fff;
+}
+.center{
+    margin-left: 44%;
+    margin-top: 40px;
+}
+/*navbar*/
+.svg{
+    float: right;
+    margin: 20px;
+}
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 18px 50px 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ccc;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: #fff;
+}
+
+.btn-close{
+    position: absolute;
+    top: 0;
+    left: 22px;
+    font-size: 36px;
+}
+
+#main{
+    transition: margin-left 0.5s;
+    padding: 20px;
+}
+.navbar{
+    width:100%;
+    background-color:#111;
+    color: #fff;
+    overflow: auto;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    bottom: 70px;
+    width: 100%;
+}
+.navbar a{
+    color: #888;
+}
+.navbar .logo{
+    float: left;
+    padding-top: 5px;
+    height: 65px;
+    width: 65px;
+}
+.navbar ul{
+    float: right;
+    padding-top: 3px;
+    list-style: none;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+.navbar ul li a:hover,
+.navbar ul li a.current{
+    background:#444;
+    color: #fff;
+}
+/*contact*/
+.contact-report{
+    margin: 90px 0 10px;
+}
+.l-heading{
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+.paragraph{
+    padding-top: 40px;
+    font-size: 25px;
+}
+.under-heading{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.echo-content{
+    background: #ccc;
+    font-size: 25px;
+}                                                                                                                                                                                       
+/*footer*/
+.main-footer{
+    background-color: #222;
+    width:100%;
+    display: block;
+    height: 70px;
+    float: left;
+}
+.main-footer p{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #eee;
+    height: 50px;
+    margin: 0px;
+}
+.main-footer a{
+    color:#fff;
+}
+.main-footer a:hover{
+    text-decoration: underline;
+    color:#fff;
+}
+.content{
+    padding-top: 22px;
+    margin: 0px;
+}

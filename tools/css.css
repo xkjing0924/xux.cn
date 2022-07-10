@@ -1,0 +1,107 @@
+/* this file is download from Github,originally by xkjing0924 and the site "http://xux.cn/",please save this note */
+*{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 30px;
+    padding: 100px;
+    padding-bottom: 60px;
+}
+textarea{
+    width: 80%;
+    height: 150px;
+}
+input{
+    width: 60%;
+    height: 60px;
+}
+input,textarea{
+    font-size: 20px;
+}
+button{
+    width: 80px;
+    height: 50px;
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background-color: #000;
+}
+.select {
+    text-decoration: none;
+    width: 90px;
+    height: 60px;
+    position: absolute;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+}
+.search{
+    border: none;
+}
+.div-search{
+    border: 0.5px,solid,#555;
+    border-radius: 16px;
+}
+.tools-nav{
+    background-color: white;
+    color: #333;
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    left: 0%;
+}
+/* for nav */
+.svg{
+    float: right;
+    margin: 20px;
+}
+.side-nav{
+    color: #444;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.5;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 18px 50px 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: #333;
+}
+
+.btn-close{
+    position: absolute;
+    top: 0;
+    right: -112px;
+    font-size: 36px;
+}
+
+#main{
+    transition: margin-left 0.5s;
+    padding: 20px;
+}
+
+/*heading*/
+.tools-heading{
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    padding: 100px;
+    line-height: 50px;
+
+}
