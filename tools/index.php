@@ -136,8 +136,8 @@ h2{
 <video controls="" autoplay="" name="media"><source src="https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" type="audio/mpeg"></video>
 <h3 class="top">视频</h3>
 <a href="http://watchthis.chinadaily.com.cn/" target="_blank" class="bottom">China daily videos</a>
-
-
+<a href="https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" target="_blank">CGTN</a><br>
+<video controls="" autoplay="" name="media"><source src="blob:https://www.cgtn.com/b3b82a63-b129-48b0-a604-401441851f96" type="video/mpeg"></video>
 <?php
 }
 ?>

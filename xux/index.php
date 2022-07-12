@@ -40,7 +40,7 @@ include('../frames/nav.php');
         <div class="home-info-img"></div>
         <div class="home-info-content">
             <h3 class="home-info-text">公告</h3>
-            <p class="home-info-para">大家好<br>修复了留言反馈无法提交的问题</p>
+            <p class="home-info-para">源码<br>xux.cn在GitHub！</p>
         </div>
     </section>
     </div>

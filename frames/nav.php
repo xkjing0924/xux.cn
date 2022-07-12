@@ -1,4 +1,3 @@
-<!-- this file is download from Github,originally by xkjing0924 and the site "http://xux.cn/",please save this note -->
 <nav class="navbar">
             <div class="container-index">
                 <a href="http://www.xux.cn/"><img src="http://xux.cn/xux/img/xux.png" class="logo"></a>

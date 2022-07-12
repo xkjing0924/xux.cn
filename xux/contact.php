@@ -1,4 +1,3 @@
-<!-- this file is download from Github,originally by xkjing0924 and the site "http://xux.cn/",please save this note -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,9 +54,9 @@ include('../frames/nav.php');
         <section class="features">
             <div>
             <div class="box-contact bright">
-                <i class="fa fa-cloud fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-github fa-3x" aria-hidden="true"></i>
                 <h3>GitHub</h3>
-                <a href="https://www.aliyundrive.com/u/2ac253e0985949b4a2d1ffb12cab871f" class="btn" target="_blank">链接</a>
+                <a href="https://github.com/xkjing0924/xux.cn" class="btn" target="_blank">链接</a>
             </div>
             <div class="box-contact dark">
                 <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>

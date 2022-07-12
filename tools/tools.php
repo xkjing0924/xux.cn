@@ -47,12 +47,12 @@ if(@$_POST['select'] == "tyz"){
         if($_POST['zi_sub'] == '提交'){
             $zi1 = $_POST['zi'];
             $zi1 = trim($zi1);
-            $one = substr($zi1,1);
+            $one = mb_substr($zi1,0,1,"utf8");
             if($zi1 == ""){
                 echo '请输入搜索内容';
                 exit();
             }else{
-                echo '<head><meta http-equiv="refresh" content="0;url=https://so.gushiwen.cn/search.aspx?value=&'.$zi1.'valuej='.$one.'"></head>';
+                echo '<head><meta http-equiv="refresh" content="0;url=https://so.gushiwen.cn/search.aspx?value='.$zi1.'&valuej='.$one.'"></head>';
                 exit();
             }
         }

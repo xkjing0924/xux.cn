@@ -1,4 +1,3 @@
-<!-- this file is download from Github,originally by xkjing0924 and the site "http://xux.cn/",please save this note -->
 <?php
 class getTianFont{
     public $zi;
